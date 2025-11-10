@@ -1,44 +1,211 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lariwiki: Consoles de Videogame</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script type="module" src="./assets/script/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <picture class="logo">
+          <source
+            srcset="assets/images/logos/logoBranca.png"
+            media="(prefers-color-scheme: dark)"
+          />
+          <img
+            src="./assets/images/logos/logoPreta.png"
+            alt="Logo da Larissa Gatto"
+            width="150"
+          />
+        </picture>
+      </a>
+    </header>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
+    <div class="bar">
+      <label for="searchConsole">Procure aqui o console:</label>
+      <input list="consoles" type="search" id="searchConsole" name="search">
+      <datalist id="consoles">
+        <option>Supernintendo</option>
+        <option>Nintendo 64</option>
+        <option>Nintendo Switch</option>
+        <option>Nintendo Switch 2</option>
+        <option>Nintendo Wii</option>
+        <option>PlayStation</option>
+        <option>PlayStation 2</option>
+        <option>PlayStation 3</option>
+        <option>PlayStation 4</option>
+        <option>PlayStation 5</option>
+      </datalist>
     </div>
+ 
+    <section class="content">
+      <nav class="sidebar">
+        <h2>Consoles</h2>
+        <ul>
+          <li><a href="supernintendo.html">Super Nintendo</a></li>
+          <li><a href="playstation.html">PlayStation</a></li>
+          <li><a href="playstation2.html">PlayStation 2</a></li>
+          <li><a href="nintendo64.html">Nintendo 64</a></li>
+          <li><a href="nintendowi.html">Nintendo Wii</a></li>
+          <li><a href="playstation3.html">PlayStation 3</a></li>
+          <li><a href="nintendoswitch.html">Nintendo Switch</a></li>
+          <li><a href="playstation4.html">PlayStation 4</a></li>
+          <li><a href="nintendoswitch2.html">Nintendo Switch 2</a></li>
+          <li><a href="playstation5.html">PlayStation 5</a></li>
+        </ul>
+      </nav>
 
-    <div class="bar"></div>
+      <main class="main">
+        <section id="intro">
+          <h1>Lariwiki: Consoles de Videogame</h1>
+          <hr />
+    
+          <p>
+            Bem-vindo(a) à <strong>Lariwiki</strong>, um espaço dedicado a explorar a fascinante história dos <b>consoles de videogame </b>consoles de videogame, suas inovações, transformações e o impacto que tiveram na cultura mundial.
+          </p>
+          <p>
+            Desde os primeiros sistemas domésticos até os aparelhos modernos de última geração, os consoles desempenham um papel fundamental na forma como interagimos com a tecnologia, a arte e o entretenimento.
+          </p>
+          <p>
+            Os videogames não são apenas uma forma de lazer — são uma manifestação cultural, um ponto de encontro entre criatividade, engenharia e imaginação. Cada console carrega consigo uma história única: das batalhas entre empresas à busca por novas experiências interativas, passando pela evolução gráfica, sonora e tecnológica que moldou toda uma indústria.
+          </p>
+          <p>
+            Aqui na <strong>Lariwiki</strong>, você poderá explorar uma lista de consoles e conhecer em profundidade cada um deles através de diferentes seções temáticas, criadas para apresentar todos os aspectos que tornam esses sistemas tão especiais.
+          </p>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
+        </section>
+        <section id="geral">
+          <h2>🕹️ Sobre o Console</h2>
+          <hr />
+    
+          <p>
+            Nesta seção, você encontrará uma <strong>visão geral</strong>de cada console: seu nome completo, data de lançamento, empresa responsável, público-alvo e principais características.
+          </p>
+          <p>
+            É aqui que o leitor descobre o que torna aquele console único — seu design, proposta e a tecnologia que o diferencia.
+          </p>
+          <p>
+            Também é o espaço para destacar curiosidades, versões especiais, acessórios e inovações que marcaram o sistema, ajudando a entender como ele se posicionou dentro do mercado e qual foi sua recepção entre jogadores e críticos.
+          </p>
+          <p>
+            A seção <strong><q>Sobre o console</q></strong> funciona como o ponto de partida para mergulhar em tudo o que envolve o aparelho: o primeiro contato com sua identidade e essência.
+          </p>
 
-        <div class="main">
-            
-        </div>
+        </section>
+        <section id="historia">
+          <h2> 🧭 História</h2>
+          <hr />
+          <p>
+           Cada console tem uma <strong>história própria</strong>, marcada por desafios, conquistas e inovações.
+          <p>
+            Nesta parte, você poderá acompanhar desde os bastidores de sua criação até o impacto de seu lançamento.
+          </p>
+          <p>
+            São abordados temas como o contexto da época, as intenções da empresa ao desenvolvê-lo, os avanços tecnológicos que o tornaram possível e as mudanças que ele provocou no cenário dos jogos eletrônicos.
+          </p>
+          <p>
+            A seção <strong><q>História</q></strong> também relembra os marcos e momentos importantes: anúncios, campanhas, vendas, sucessos e fracassos.
+          </p>
+          <p>
+            É um espaço que conecta o leitor ao passado, mostrando como cada console ajudou a construir a trajetória dos videogames ao longo das décadas — e como suas ideias e inovações ainda influenciam a indústria até hoje.
+          </p>
+        </section>
+        <section id="controles">
+          <h2>🎮 Controles</h2>
+          <hr />
+          <p>
+            Os <strong>controles</strong>ão a ponte entre o jogador e o jogo — e, em muitos casos, se tornaram ícones culturais por si só.
+          </p>
+          <p>
+            Nesta seção, a Lariwiki apresenta uma análise detalhada dos controladores de cada console, explorando seu design, ergonomia, botões, sensores e tecnologias integradas.
+          </p>
+          <p>
+            Desde os clássicos joysticks até os modernos controles sem fio, cada geração trouxe novas formas de interação: gatilhos analógicos, sensores de movimento, vibração tátil, tela sensível ao toque e muito mais.
+          </p>
+          <p>
+            Além das características técnicas, a seção <strong><q>Controles</q></strong> também aborda o impacto que esses dispositivos tiveram na jogabilidade e na experiência do jogador, mostrando como o design de um controle pode mudar completamente a forma de jogar.
+          </p>
+        </section>
+        <section id="jogos">
+          <h2> 🎲 Jogos</h2>
+          <hr />
+          <p>
+            Os <b>jogos</b> são a alma de qualquer console.
+          </p>
+          <p>
+            Nesta seção, o foco está nas principais obras que definiram cada sistema — títulos exclusivos, franquias lendárias e experiências que marcaram gerações.
+          </p>
+          <p>
+            Aqui, você encontrará informações sobre gêneros mais populares, desenvolvedores, curiosidades e o legado deixado por cada jogo emblemático.
+          </p>
+          <p>
+            A <strong>Lariwiki</strong>Lariwiki também destaca como os jogos de determinado console refletiam as tendências de seu tempo: seja pelo avanço gráfico, pela narrativa, pela trilha sonora ou pelo modo de jogar em grupo.
+          </p>
+          <p>
+            Cada console teve seus clássicos, e conhecer esses títulos é entender o que o tornou tão especial para milhões de jogadores.
+          </p>
+        </section>
+        <section id="especificacoes">
+          <h2>⚙️Especificações</h2>
+          <p>
+            Por trás de cada experiência de jogo existe um conjunto complexo de <strong>especificações técnicas</strong> que tornam tudo possível.
+          </p>
+          <p>
+            Nesta parte, você poderá conferir os detalhes de hardware que definem o desempenho e as capacidades de cada console:
+          </p>
+          <ul>
+            <li>Processador (CPU)</li>
+            <li>Chip gráfico (GPU)</li>
+            <li>Memória</li>
+            <li>Armazenamento</li>
+            <li>Conectividade</li>
+            <li>Resolução suportada</li>
+            <li>Tecnologia empregada</li>
+          </ul>
+          <p>
+            Além de listar números, a Lariwiki busca explicar o que esses componentes realmente significam — como influenciam na performance, na qualidade visual e na experiência geral do jogador.
+          </p>
+          <p>
+            A seção também destaca comparações entre gerações, mostrando como a evolução tecnológica moldou os consoles ao longo do tempo e abriu caminho para novas formas de jogar.
+          </p>
+          
+        </section>
+        <section id="conclusion">
+          <h1>🌍 Conclusão</h1>
+          <hr />
+    
+          <p>
+            A <strong>Lariwiki: Consoles de Videogame</strong> é mais do que um catálogo — é uma celebração da história, da criatividade e da paixão que unem milhões de jogadores ao redor do mundo.
+          </p>
+          <p>
+            Cada console representou um passo à frente na jornada dos videogames, e compreender essa evolução é compreender também a nossa relação com a diversão, a tecnologia e a cultura digital.
+          </p>
+          <p>
+            Explore, descubra e divirta-se aprendendo sobre as máquinas que mudaram o modo como jogamos — e que continuam inspirando o futuro dos jogos eletrônicos.
+          </p>
+          
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+        </section>
+      </main>
 
-    <div class="footer">
+      <aside class="anchors">
+        <h2>Aqui você fica sabendo</h2>
+        <ul>
+          <li><a href="#geral">Sobre o console</a></li>
+          <li><a href="#historia">História</a></li>
+          <li><a href="#controles">Controles</a></li>
+          <li><a href="#jogos">Jogos</a></li>
+          <li><a href="#especificacoes">Especificações</a></li>
+        </ul>
+      </aside>
+    </section>
 
-    </div>
-</body>
+    <footer class="footer">
+      <p>Conteúdo sob licença Creative Commons. Inspirado na Wikipédia.</p>
+    </footer>
+  </body>
 </html>
