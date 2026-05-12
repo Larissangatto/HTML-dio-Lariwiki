@@ -1,19 +1,40 @@
-# Módulo 3 - Trilha HTML
+# LariWiki
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+Projeto de página estilo Wikipedia desenvolvido com HTML e CSS.
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+🔗 Acesse o projeto:  
+https://larissangatto.github.io/HTML-dio-Lariwiki/
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+---
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+## Sobre
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+Este projeto foi desenvolvido durante um exercício de prática de HTML e CSS, com foco em estruturação de páginas web.
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
+A proposta foi recriar um layout inspirado na Wikipedia, organizando conteúdo em seções e aplicando navegação interna.
 
+---
+
+## O que foi praticado
+
+- Estrutura de páginas com HTML
+- Uso de elementos semânticos
+- Organização de conteúdo em seções
+- Links internos (âncoras)
+- Estilização básica com CSS
+
+---
+
+## Tecnologias
+
+- HTML5
+- CSS3
+
+---
+
+## Melhorias futuras
+
+- Responsividade para dispositivos móveis
+- Melhorias visuais no CSS
+- Adição de interatividade com JavaScript
 
