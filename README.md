@@ -1,4 +1,4 @@
-# LariWiki
+# 📖 LariWiki 🎮
 
 Projeto de página estilo Wikipedia desenvolvido com HTML e CSS.
 
@@ -15,7 +15,7 @@ A proposta foi recriar um layout inspirado na Wikipedia, organizando conteúdo e
 
 ---
 
-## O que foi praticado
+## 💻 O que foi praticado
 
 - Estrutura de páginas com HTML
 - Uso de elementos semânticos
@@ -25,14 +25,14 @@ A proposta foi recriar um layout inspirado na Wikipedia, organizando conteúdo e
 
 ---
 
-## Tecnologias
+## 🤖 Tecnologias
 
 - HTML5
 - CSS3
 
 ---
 
-## Melhorias futuras
+## ⏱️ Melhorias futuras
 
 - Responsividade para dispositivos móveis
 - Melhorias visuais no CSS
